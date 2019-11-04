@@ -1,7 +1,7 @@
-Code Kata Instructions for Surface Area and Volume of a Box:
+Instructions for Surface Area and Volume of a Box:
 Write a function that returns the total surface area and volume of a box as an array: [area, volume]
 
-Sample Tests:
+Sample Tests to Pass:
 Test.assert_equals(get_size(4, 2, 6), [88,48])
 Test.assert_equals(get_size(1, 1, 1), [6,1])
 Test.assert_equals(get_size(1, 2, 1), [10,2])
