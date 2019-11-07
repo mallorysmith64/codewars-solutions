@@ -1,6 +1,6 @@
-// # Level: 8kyu
-// # Name: Convert a String to a Number!
-// # Instructions: Transform a string into a number
+// Level: 8kyu
+// Name: Convert a String to a Number!
+// Instructions: Transform a string into a number
 
 //Solution in Javascript
 const stringToNumber = str => {

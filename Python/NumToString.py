@@ -7,5 +7,5 @@
 def number_to_string(num):
     return str(num)
 
-# sample tests passed:
+# Sample Tests Passed:
 # test.expect(number_to_string(67) == '67');
