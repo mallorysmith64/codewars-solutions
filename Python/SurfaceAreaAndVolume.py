@@ -2,6 +2,8 @@
 # Name: Surface Area And Volume of A Box
 # Instructions: Write a function that returns the total surface area and volume of a box as an array: [area, volume]
 
+# Solution in Python
+
 
 def get_size(w, h, d):
     area = (w * d + d * h + w * h) * 2

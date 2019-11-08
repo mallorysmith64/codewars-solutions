@@ -9,4 +9,4 @@ function numberToString(num) {
 }
 
 // Sample Tests Passed:
-// test.expect(number_to_string(67) == '67');
+// Test.assertEquals(numberToString(67), '67');

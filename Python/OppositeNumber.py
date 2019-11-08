@@ -2,10 +2,11 @@
 # Name: Convert a Number to a String!
 # Instructions: Transform a number into a string
 
-
 # Solution in Python
-def number_to_string(num):
-    return str(num)
+
+
+def opposite(number):
+    return -number
 
 # Sample Tests Passed:
-# test.expect(number_to_string(67) == '67');
+# test.assert_equals(opposite(1),-1)

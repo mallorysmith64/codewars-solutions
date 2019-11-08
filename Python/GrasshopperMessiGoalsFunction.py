@@ -4,12 +4,12 @@
 # Complete the function to return his total number of goals in all three leagues.
 # For example: 5, 10, 2  -->  17
 
-# solution in python
+# Solution in Python
 
 
 def goals(laLiga, copaDelRey, championsLeague):
     return laLiga + copaDelRey + championsLeague
 
 # Sample Tests Passed:
-# Test.assertEquals(goals(0,0,0), 0)
-# Test.assertEquals(goals(43, 10, 5), 58)
+# Test.assert_equals(goals(0, 0, 0), 0)
+# Test.assert_equals(goals(5, 10, 2), 17)

@@ -2,7 +2,7 @@
 # Name: Convert a String to a Number!
 # Instructions: Transform a string into a number
 
-# solution in python
+# Solution in Python
 
 
 def string_to_number(s):
