@@ -17,3 +17,10 @@ function unusualFive(a, b, c, d, e) {
 function unusualFive() {
     return "today".length
   }
+
+// Sample Tests Passed:
+// describe("unusualFive", function(){
+//   it("should return 5", function(){
+//     assert.strictEqual(unusualFive(), 5);
+//   });
+// });
