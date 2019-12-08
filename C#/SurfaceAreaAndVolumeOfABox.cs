@@ -3,17 +3,20 @@
 // Instructions: Write a function that returns the total surface area and volume of a box as an array: [area, volume]
 
 //Solution in C#
-//this solution is a work in progress!!!!!!
-//this will NOT work!!!
+
+//step 1: calculate area
+//step 2: calculate volume
+//step 3: return new array of integers like this: return new int[] {area, volume};
+//Tip: do NOT return answer like this: return [area, volume] b/c this syntax will NOT work in C#!!!
 using System;
 
     public class Kata
     {
         public static int[] Get_size(int width,int height,int depth)
         {
-            double area = (width * depth + depth * height * height) * 2;
-            double volume = width * height * depth;
-            return area; volume;
+      int area = (width * depth + depth * height + width * height) * 2;
+      int volume = width * height * depth;
+      return new int[] {area, volume};
         }
     }
 
