@@ -3,6 +3,10 @@
 // Instructions: Write function makeUpperCase
 
 // Solution in C#
+
+//step 1: know String.ToUpper Method
+//resource: https://docs.microsoft.com/en-sg/dotnet/api/system.string.toupper?view=netframework-4.8
+
 public class Kata
   {
         public static string MakeUpperCase(string str)
