@@ -5,8 +5,6 @@
 # Note: if there is nothing to sum, the sum is default to 0.
 
 # Solution in Python
-
-
 def positive_sum(arr):
     max_sum = 0
     for num in arr:
