@@ -9,7 +9,6 @@
 //Triangle Inequality Theorem: The sum of the lengths of any two sides of a triangle > the length of the third side.
 //step 2: return this theorem by either adding the sides together and setting them greater than the third side or
 // subtract two sides and set them less than the third side
-
 public class Triangle
 {
     public static bool IsTriangle(int a, int b, int c)
@@ -19,15 +18,26 @@ public class Triangle
 }
 
 // Solution 2:
-// using System;
+public class Triangle
+{
+    public static bool IsTriangle(int a, int b, int c)
+    {
+       return a - b < c && b - c < a && c - a < b;
+    }
+}
 
-// public class Triangle
-// {
-//     public static bool IsTriangle(int a, int b, int c)
-//     {
-//        return a - b < c && b - c <a && c - a < b;
-//     }
-// }
+// Solution 3:
+public class Triangle
+{
+    public static bool IsTriangle(int a, int b, int c)
+    {
+       if (a*a + b*b == c*c - 26) {
+          return true;
+        } else {
+          return false;
+        }
+    }
+}
 
 // Sample Tests Passed:
 // using NUnit.Framework;
