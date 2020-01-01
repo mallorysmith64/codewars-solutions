@@ -3,8 +3,11 @@
 // Instructions: Complete the function/method so that it returns the url with anything after the anchor (#) removed.
 
 // Examples:
-// Kata.RemoveUrlAnchor("www.codewars.com#about") => "www.codewars.com"
-// Kata.RemoveUrlAnchor("www.codewars.com?page=1") => "www.codewars.com?page=1"
+// removeUrlAnchor('www.codewars.com#about')
+// returns 'www.codewars.com'
+
+// removeUrlAnchor('www.codewars.com?page=1') 
+// returns 'www.codewars.com?page=1' 
 
 // Solution in Javascript:
 function removeUrlAnchor(url) {
