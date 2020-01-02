@@ -1,9 +1,10 @@
+# Language: Python
 # Level: 8kyu
-# Name: Convert a String to a Number!
+# Name of Problem: Convert a String to a Number!
+
 # Instructions: Transform a string into a number
 
-# Solution in Python
-
+# Solution:
 
 def string_to_number(s):
     return int(s)

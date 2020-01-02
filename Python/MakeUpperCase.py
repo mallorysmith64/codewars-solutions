@@ -1,8 +1,9 @@
+# Language: Python
 # Level: 8kyu
-# Name: MakeUpperCase
+# Name of Problem: MakeUpperCase
 # Instructions: Write function makeUpperCase
 
-# Solution in Python
+# Solution:
 #step1: know string upper() method
 #resource: https://www.programiz.com/python-programming/methods/string/upper
 def make_upper_case(s):

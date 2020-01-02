@@ -1,14 +1,16 @@
+# Language: Python
 # Level: 8kyu
-# Name: 5 Without NUmbers
+# Name of Problem: 5 Without Numbers
+
 # Instructions: Write a function that always returns 5
 # Sounds easy right? Just bear in mind that you can't use any of the following characters: 0123456789*+-/
 
-# Solution 1 in Python
+# Solution 1:
 
 def unusual_five():
      return len("hello")
 
-# Solution 2 in Python
+# Solution 2:
 
 # def unusual_five():
 #     unusual_five = ""

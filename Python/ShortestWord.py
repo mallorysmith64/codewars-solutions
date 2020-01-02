@@ -1,19 +1,19 @@
+# Language: Python
 # Level: 7kyu
-# Name: Shortest Word
+# Name of Problem: Shortest Word
+
 # Instructions: Simple, given a string of words, return the length of the shortest word(s).
 # String will never be empty and you do not need to account for different data types.
 
-# Solution 1 in Python
-
+# Solution 1:
 
 def find_short(s):
     return min(len(x) for x in s.split())
 
-# Solution 2 in Python
+# Solution 2:
 
-
-def find_short(s):
-    return len(sorted(s.split(' '), key=len)[0])
+# def find_short(s):
+#     return len(sorted(s.split(' '), key=len)[0])
 
 # Sample Tests Passed:
 # test.describe("Basic Tests")

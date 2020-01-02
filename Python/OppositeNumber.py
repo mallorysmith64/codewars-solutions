@@ -1,9 +1,10 @@
+# Language: Python
 # Level: 8kyu
-# Name: Convert a Number to a String!
+# Name of Problem: Convert a Number to a String!
+
 # Instructions: Transform a number into a string
 
-# Solution in Python
-
+# Solution:
 
 def opposite(number):
     return -number
