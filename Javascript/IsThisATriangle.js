@@ -1,10 +1,12 @@
+// Language: Javascript
 // Level: 7kyu
-// Name: Is this a triangle?
+// Name of Problem: Is this a triangle?
+
 // Instructions: Implement a method that accepts 3 integer values a, b, c. 
 // The method should return true if a triangle can be built with the sides of given length and false in any other case.
 // (In this case, all triangles must have surface greater than 0 to be accepted).
 
-// Solution in Javascript:
+// Solution 1:
 function isTriangle(a,b,c)
 {
    return a + b > c && b + c > a && c + a > b

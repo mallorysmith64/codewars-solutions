@@ -1,10 +1,12 @@
+// Language: Javascript
 // Level: 8kyu
-// Name: Sort and Star
+// Name of Problem: Sort and Star
+
 // Instructions: You will be given an vector of string(s). You must sort it alphabetically (case-sensitive!!) and then return the first value.
 // The returned value must be a string, and have "***" between each of its letters.
 // You should not remove or add elements from/to the array.
 
-// Solution 1 in Javascript:
+// Solution 1:
 function twoSort(s) {
   return s
     .sort()[0]
@@ -12,7 +14,7 @@ function twoSort(s) {
     .join("***");
 }
 
-//Solution 2 in Javascript:
+// Solution 2:
 function twoSort(array) {
   return [...array.sort()[0]].join("***");
 }

@@ -1,8 +1,10 @@
+// Language: Javascript
 // Level: 8kyu
-// Name: Convert a String to a Number!
+// Name of Problem: Convert a String to a Number!
+
 // Instructions: Transform a string into a number
 
-//Solution in Javascript
+// Solution:
 const stringToNumber = str => {
   let num = parseInt(str)
   return num

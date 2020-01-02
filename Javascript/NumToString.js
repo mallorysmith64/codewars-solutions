@@ -1,8 +1,9 @@
+// Language: Javascript
 // Level: 8kyu
-// Name: Convert a Number to a String!
+// Name of Problem: Convert a Number to a String!
 // Instructions: Transform a number into a string
 
-//Solution in Javascript
+// Solution:
 function numberToString(num) {
   let x = String(num)
   return x

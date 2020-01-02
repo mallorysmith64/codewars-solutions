@@ -1,10 +1,12 @@
+// Language: Javascript
 // Level: 8kyu
-// Name: Switch it Up!
+// Name of Problem: Switch it Up!
+
 // Instructions: When provided with a number between 0-9, return it in words.
 // Input :: 1 Output :: "One"
 // If your language supports it, try using a switch statement.
 
-//Solution in Javascript
+// Solution:
 const switchItUp = number => {
   switch (number) {
     case 0:

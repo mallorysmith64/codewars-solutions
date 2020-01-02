@@ -1,9 +1,11 @@
+// Language: Javascript
 // Level: 7kyu
-// Name: Shortest Word
+// Name of Problem: Shortest Word
+
 // Instructions: Simple, given a string of words, return the length of the shortest word(s).
 // String will never be empty and you do not need to account for different data types.
 
-// Solution in Javascript
+// Solution:
 const findShort = s => {
   let wordArr = s.split(' ')
   let shortest = Infinity

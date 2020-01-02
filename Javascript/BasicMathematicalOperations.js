@@ -1,5 +1,7 @@
+// Language: Javascript
 // Level: 8kyu
-// Name: Basic Mathematical Operations
+// Name of Problem: Basic Mathematical Operations
+
 // Instructions: Your task is to create a function that does four basic mathematical operations.
 // The function should take three arguments - operation(string/char), value1(number), value2(number).
 // The function should return result of numbers after applying the chosen operation.
@@ -10,7 +12,7 @@
 // basicOp('*', 5, 5)         // Output: 25
 // basicOp('/', 49, 7)        // Output: 7
 
-//Solution in Javascript
+// Solution:
 function basicOp(operator, a, b) {
   return { '+': a + b, '-': a - b, '*': a * b, '/': a / b }[operator]
 }
