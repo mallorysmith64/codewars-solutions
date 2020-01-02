@@ -1,9 +1,10 @@
+// Language: C#
 // Level: 8kyu
-// Name: MakeUpperCase
+// Name of Problem: MakeUpperCase
+
 // Instructions: Write function makeUpperCase
 
-// Solution in C#:
-
+// Solution:
 //step 1: know String.ToUpper Method
 //resource: https://docs.microsoft.com/en-sg/dotnet/api/system.string.toupper?view=netframework-4.8
 

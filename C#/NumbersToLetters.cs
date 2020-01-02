@@ -1,10 +1,12 @@
+// Language: C#
 // Level: 7kyu
-// Name: Numbers to Letters
+// Name of Problem: Numbers to Letters
+
 // Instructions: Given an array of numbers, you must return a string. 
 // The numbers correspond to the letters of the alphabet in reverse order: a = 26, z = 1 etc. 
 // You should also account for '!', '?' and ' ' that are represented by '27', '28' and '29' respectively.
 
-// Solution in C#:
+// Solution:
 using System;
 using System.Linq;
 

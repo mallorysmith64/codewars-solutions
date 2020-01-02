@@ -1,8 +1,10 @@
+// Language: C#
 // Level: 8kyu
-// Name: Expressions Matter
+// Name of Problem: Expressions Matter
+
 // Instructions: Given three integers a,b,c return the largest number obtained after inserting the following operators and brackets: +, *, ().
 
-// Example:
+// Examples:
 // With the numbers 1, 2 and 3 here are some ways of placing signs and brackets:
 // 1 * (2 + 3) = 5
 // 1 * 2 * 3 = 6
@@ -26,7 +28,7 @@
 // expressionsMatter(9,1,1)  ==>  return 18
 // Explanation: After placing signs and brackets, the Maximum value obtained from the expression is 9 * (1+1) = 18.
 
-// Solution 1 in C#:
+// Solution 1:
 using System.Linq;
 
 public class Kata
@@ -50,20 +52,20 @@ public class Kata
 // }
 
 // Solution 3:
-// public class Kata
-// {
-//     public static int ExpressionsMatter(int a, int b, int c)
-//         {
-//             if (a == 1 && c == 1) return a + b + c;
-//             if (a > 1 && b > 1 && c > 1)
-//                 return a * b * c;
-//             if (a == 1)
-//                 return (a + b) * c;
-//             if (b == 1)
-//                 return a > c ? a * (b + c) : (a + b) * c;
-//             return a * (b + c);
-//         }
-//     }
+public class Kata
+{
+    public static int ExpressionsMatter(int a, int b, int c)
+        {
+            if (a == 1 && c == 1) return a + b + c;
+            if (a > 1 && b > 1 && c > 1)
+                return a * b * c;
+            if (a == 1)
+                return (a + b) * c;
+            if (b == 1)
+                return a > c ? a * (b + c) : (a + b) * c;
+            return a * (b + c);
+        }
+    }
 
 // Sample Tests Passed:
 // namespace Solution

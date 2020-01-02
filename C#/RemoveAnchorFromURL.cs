@@ -1,12 +1,14 @@
+// Language: C#
 // Level: 7kyu
-// Name: Remove anchor from URL
+// Name of Problem: Remove anchor from URL
+
 // Instructions: Complete the function/method so that it returns the url with anything after the anchor (#) removed.
 
 // Examples:
 // Kata.RemoveUrlAnchor("www.codewars.com#about") => "www.codewars.com"
 // Kata.RemoveUrlAnchor("www.codewars.com?page=1") => "www.codewars.com?page=1"
 
-// Solution in C#:
+// Solution:
 public static class Kata
 {
   public static string RemoveUrlAnchor(string url)

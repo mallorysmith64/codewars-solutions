@@ -1,15 +1,17 @@
+// Language: C#
 // Level: 6kyu
-// Name: Even Fibonacci Sum
+// Name of Problem: Even Fibonacci Sum
+
 // Instructions: Give the summation of all even numbers in a Fibonacci sequence up to, but not including, the maximum value.
 // The Fibonacci sequence is a series of numbers where the next value is the addition of the previous two values. The series starts with 0 and 1:
 // 0 1 1 2 3 5 8 13 21...
 
-// For example:
+// Examples:
 // Kata.Fibonacci(0) // returns 0
 // Kata.Fibonacci(33) // returns 10
 // Kata.Fibonacci(25997544) // returns 19544084
 
-// Solution 1 in C#:
+// Solution 1:
 public static class Kata
 {
   public static long Fibonacci(int n)

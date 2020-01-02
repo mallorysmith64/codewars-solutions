@@ -1,14 +1,16 @@
+// Language: C#
 // Level: 7kyu
-// Name: Is this a triangle?
+// Name of Problem: Is this a triangle?
+
 // Instructions: Implement a method that accepts 3 integer values a, b, c. 
 //The method should return true if a triangle can be built with the sides of given length and false in any other case.
 // (In this case, all triangles must have surface greater than 0 to be accepted).
 
-// Solution 1 in C#:
+// Solution 1:
 //step 1: Know the triangle inequality theorem
 //Triangle Inequality Theorem: The sum of the lengths of any two sides of a triangle > the length of the third side.
 //step 2: return this theorem by either adding the sides together and setting them greater than the third side or
-// subtract two sides and set them less than the third side
+//subtract two sides and set them less than the third side
 public class Triangle
 {
     public static bool IsTriangle(int a, int b, int c)

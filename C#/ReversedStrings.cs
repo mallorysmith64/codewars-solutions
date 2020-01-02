@@ -1,9 +1,13 @@
+// Language: C#
 // Level: 8kyu
-// Name: Reversed Strings
+// Name of Problem: Reversed Strings
+
 // Instructions: Complete the solution so that it reverses the string value passed into it.
+
+// Example:
 // Kata.Solution("world") //returns "dlrow"
 
-//Solution 1 in C#
+// Solution 1:
 using System;
 
 public static class Kata
@@ -16,7 +20,7 @@ public static class Kata
     }
   }
 
-//Solution 2:
+// Solution 2:
 // using System;
 
 // public static class Kata

@@ -1,8 +1,10 @@
+// Language: C#
 // Level: 8kyu
-// Name: Opposite number
+// Name of Problem: Opposite number
+
 // Instructions: Given a number, find its opposite
 
-//Solution in C#
+// Solution:
 using System;
 
 public class Kata
