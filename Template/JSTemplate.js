@@ -2,7 +2,7 @@
 // Level: 
 // Name of Problem: 
 
-// Instructions:
+// Instructions: 
 
 // Examples:
 
