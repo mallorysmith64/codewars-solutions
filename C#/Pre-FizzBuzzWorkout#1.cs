@@ -8,8 +8,6 @@
 // Your inputs: a positive integer, n, greater than or equal to one. n is provided, you have NO CONTROL over its value.
 // Your expected output is an array of positive integers from 1 to n (inclusive).
 
-using System.Linq;
-
 // Solution 1:
 //don't forget to uncomment "using System.Linq;" for solution to work
 
