@@ -7,14 +7,19 @@
 // Your job is simple, if (x) squared is more than 1000, return 'It's hotter than the sun!!', else, return 'Help yourself to a honeycomb Yorkie for the glovebox.'.
 // X will be either a number or a string. Both are valid.
 
-// Solution:
+// Solution 1 using if/else statement:
 function apple(x){
     if (x**2 > 1000) {
     return "It's hotter than the sun!!"
     } else {
     return "Help yourself to a honeycomb Yorkie for the glovebox."
     }
-  }  
+  } 
+
+// Solution 2 using ternary operator:
+function apple(x){
+  return x * x > 1000 ? "It's hotter than the sun!!" : "Help yourself to a honeycomb Yorkie for the glovebox."
+    }
   
 // Sample Tests Passed:
 // Test.describe("Example tests",_=>{
