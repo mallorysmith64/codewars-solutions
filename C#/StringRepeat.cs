@@ -23,6 +23,23 @@ namespace Solution
   }
 }
 
+// Solution 2:
+// Hint: when "System.Text;" is missing from the solution, this error will occur:
+//"The type or namespace name 'StringBuilder' could not be found (are you missing a using directive or an assembly reference?)"
+//To avoid this error, don't forget to uncomment "using System.Text;" from the solution below
+
+// using System.Text;
+namespace Solution
+{
+  public static class Program
+  {
+    public static string repeatStr(int n, string s)
+    {
+       return new StringBuilder(s.Length * n).Insert(0, s, n).ToString();
+    }
+  }
+}
+
 // Sample Tests Passed:
 // namespace Solution
 // {
